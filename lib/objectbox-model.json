@@ -1,0 +1,217 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "4:3019400054676847125",
+      "lastPropertyId": "5:6032401836975631065",
+      "name": "AbilityBox",
+      "properties": [
+        {
+          "id": "1:5096314097380276938",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:3521895176006006041",
+          "name": "idPokemon",
+          "type": 6
+        },
+        {
+          "id": "3:128135508750601802",
+          "name": "idSpecies",
+          "type": 9
+        },
+        {
+          "id": "4:3741390285692883199",
+          "name": "isHidden",
+          "type": 1
+        },
+        {
+          "id": "5:6032401836975631065",
+          "name": "slot",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:1822258968726268207",
+      "lastPropertyId": "10:3522167183395620737",
+      "name": "PokemonBox",
+      "properties": [
+        {
+          "id": "1:8006705998623260681",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:951915039757846852",
+          "name": "baseExperience",
+          "type": 6
+        },
+        {
+          "id": "3:3930934246222828166",
+          "name": "height",
+          "type": 6
+        },
+        {
+          "id": "4:6635028529079011363",
+          "name": "idPokemon",
+          "type": 6
+        },
+        {
+          "id": "5:2990724078944766079",
+          "name": "isDefault",
+          "type": 1
+        },
+        {
+          "id": "6:8713841540581358790",
+          "name": "locationAreaEncounters",
+          "type": 9
+        },
+        {
+          "id": "7:2612798483951477036",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "8:4576494936625592973",
+          "name": "order",
+          "type": 6
+        },
+        {
+          "id": "9:7701044977227465342",
+          "name": "weight",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:5758667138190303679",
+      "lastPropertyId": "4:3276574330813950094",
+      "name": "SpeciesBox",
+      "properties": [
+        {
+          "id": "1:2875276440382315888",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:2464781881289672407",
+          "name": "idPokemon",
+          "type": 6
+        },
+        {
+          "id": "3:3922814211383262860",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:3276574330813950094",
+          "name": "url",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:1647513345510668961",
+      "lastPropertyId": "10:6336958792937694665",
+      "name": "SpritesBox",
+      "properties": [
+        {
+          "id": "1:951417128386842543",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8386578712458114978",
+          "name": "backDefault",
+          "type": 9
+        },
+        {
+          "id": "3:2825965011297504503",
+          "name": "backFemale",
+          "type": 9
+        },
+        {
+          "id": "4:8742208462070412883",
+          "name": "backShiny",
+          "type": 9
+        },
+        {
+          "id": "5:7752656400259385314",
+          "name": "backShinyFemale",
+          "type": 9
+        },
+        {
+          "id": "6:4395381354072298766",
+          "name": "frontDefault",
+          "type": 9
+        },
+        {
+          "id": "7:2936211514392901928",
+          "name": "frontFemale",
+          "type": 9
+        },
+        {
+          "id": "8:4428901903646872251",
+          "name": "frontShiny",
+          "type": 9
+        },
+        {
+          "id": "9:4811804963873660687",
+          "name": "frontShinyFemale",
+          "type": 9
+        },
+        {
+          "id": "10:6336958792937694665",
+          "name": "idPokemon",
+          "type": 6
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "7:1647513345510668961",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    6207775296912182572,
+    4558471609188021964,
+    1069607477640535402
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    1489247558707294775,
+    8202162852118775565,
+    1757126657059138259,
+    9056648124455386154,
+    1382889670600300101,
+    9176269886940842975,
+    348590624730862030,
+    6935342819088152909,
+    7317741781478510979,
+    4314747161955411485,
+    7725236398058151534,
+    6889197874332452540,
+    8186674778752880587,
+    3035385588326652485,
+    5521083619639715667,
+    2111551098223978734,
+    7456725323540305549,
+    3522167183395620737
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
